@@ -1,0 +1,266 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  position: fixed;
+}
+
+.nav-item {
+  float: left;
+  padding-left: 12px;
+  padding-top: 20px;
+  padding-bottom:20px; 
+  padding-right: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 12%; /* Four links of equal widths */
+  text-align: center;
+}
+.logo{
+    float: left;
+    padding-left: 12px;
+    padding-top: 13px;
+    padding-bottom:12px; 
+    padding-right: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 12%; /* Four links of equal widths */
+    text-align: center;  
+}
+.navbar a:hover {
+    color:white;
+  background-color: orangered;
+}
+
+.navbar a.active {
+  background-color: orangered;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+  .shadow{
+      
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .main-logo{
+      height: 30px;
+      align-items: center;
+  }
+  .footer{
+    margin-top:auto; 
+    bottom: 0;
+      background-color:orangered;
+      color:white;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      width: 100%;
+      right:0px;
+  }
+  .container-1{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding:20px;
+  }
+
+  .container-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:20px;
+}
+
+
+  .data-element{
+      flex:1;
+      padding-top: 15px;
+      padding-right:10px;
+      padding-left: 10px;
+      padding-bottom: 15px;
+  }
+
+   .show-content{
+      display:flex;
+      
+      padding-top: 10px;
+      padding-right:10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+  }
+
+
+  .item2{
+    flex:1;
+  }
+
+  .home-content{
+      background-color:rgb(223, 114, 63);
+     
+  }
+  .home-content2{
+      
+    background-color:rgba(255, 255, 255, 0.876);
+    color:black;
+}
+
+  
+  .updates{
+      color:black;
+      font-size: 20px;
+     text-decoration: none;
+      
+  }
+  
+  .latest-updates
+  {
+      margin-left:10px;
+
+      padding-bottom: 20px;
+      padding-right:10px;
+      padding-left:10px;
+  }
+
+  p{
+      font-size:19px;
+  }
+
+  .search{
+      padding:8px;
+      border:1px solid grey;
+      border-radius:10px;
+  }
+  a:active{
+      background-color:rgb(223, 114, 63);
+      color:white;
+  }
+
+.w-100
+{
+    width:100%;
+}
+.form  tr  td{
+font-size:20px;
+}
+
+
+.btn{
+    border:none;
+    padding:10px;
+    background-color: white;
+    color:black;
+    font-style: bold;
+    font-size: 16px;
+    border-radius:30px;
+}
+
+
+.data-left>table{
+    float: right;
+}
+
+
+.main-image img{
+    height:500px;
+}
+
+.latest-updates .header{
+    color:white;
+    top:0px;
+    text-align:center;
+    background-color: rgb(223, 114, 63);
+}
+.latest-updates > marquee{
+    top:0px;
+    text-align:center;
+    background-color: white;
+}
+
+.title{
+    background-color:rgba(5, 5, 5, 0.329);
+    font-size: 50px;
+    font-weight: 1000;
+    position: relative;
+    text-align:center;
+    color:rgb(223, 114, 63);
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    bottom: 150px;
+    left: 16px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.item1{
+    flex:1;
+    padding:20px
+}
+
+.item3{
+    flex:1;
+}
+
+main{
+    padding:2em;
+    padding-top: 30px;
+    min-height: 100vh;
+}
+
+
+.registration-page{
+    padding-right:20px;
+    padding-left:20px;
+    
+    padding-top:10px;
+    
+    padding-bottom:10px;
+    background-color: orangered;
+}
+
+
+
+
+.form-control{
+    height: 40px;
+    width:100%;
+    font-size: 17px;
+}
+
+.table-form td{
+    padding:10px;
+
+}
+
+.margin-right{
+    border-left: 1px solid black;
+}
+
+.margin-right-white{
+    border-left: 1px solid white;
+}
+
+input:focus{
+    border:none;
+}
+
+.footer-main{
+    padding:20px;
+    color:white;
+    background-color:orangered;
+}
+.item1>h4>a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.item1>b{
+    text-align: center;
+}
